@@ -475,10 +475,7 @@ main {
     border: 3px solid #00E6E6; /* Add a colored outline (Coral in this case) */
     object-fit: cover; /* Ensures the image maintains the aspect ratio inside the circle */
 }
-.avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 25px;
-}
+
 
 .info-content .name {
   color: var(--white-2);
