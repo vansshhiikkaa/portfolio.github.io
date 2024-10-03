@@ -33,13 +33,13 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(318, 38%, 45%) 0%, 
-    hsla(318, 38%, 45%, 0) 50%
+    hsl(180, 100%, 45%) 0%, 
+    hsla(180, 100%, 45%, 0) 50%
 );
 --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(318, 38%, 45%, 0.251) 0%, 
-    hsla(318, 38%, 45%, 0) 59.86%
+    hsla(180, 100%, 45%, 0.251) 0%, 
+    hsla(180, 100%, 45%, 0) 59.86%
 ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -48,8 +48,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(318, 38%, 45%), 
-    hsl(318, 38%, 45%)
+    hsl(180, 100%, 45%), 
+    hsl(180, 100%, 45%)
 );
 
   /* solid */
@@ -61,8 +61,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(318, 38%, 45%);
-  --vegas-gold: hsl(318, 38%, 45%);
+  --orange-yellow-crayola: hsl(180, 100%, 45%);
+  --vegas-gold: hsl(180, 100%, 45%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 100%, 51%);
@@ -584,7 +584,7 @@ main {
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link:hover { color: var(--orange-yellow-crayola); }
 
 
 
