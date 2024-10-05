@@ -7,7 +7,6 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 // Typed.js Initiation
-(function ($) {
   // Typed Initiate
     if ($('.hero .hero-text h2').length == 1) {
         var typed_strings = $('.hero .hero-text .typed-text').text();
@@ -19,7 +18,7 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
             loop: true
         });
     }
-  })(jQuery);
+  }
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
