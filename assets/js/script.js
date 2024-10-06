@@ -1,22 +1,22 @@
 'use strict';
 
 
+// Typed.js Initiation
+const heroTextH2 = document.querySelector('.hero .hero-text h2');
+if (heroTextH2) {
+  const typedStrings = document.querySelector('.hero .hero-text .typed-text').textContent;
+  new Typed('.hero .hero-text h2', {
+    strings: typedStrings.split(', '),
+    typeSpeed: 100,
+    backSpeed: 20,
+    smartBackspace: false,
+    loop: true
+  });
+}
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
-
-// Typed.js Initiation
-  //   if ($('.hero .hero-text h2').length == 1) {
-  //       var typed_strings = $('.hero .hero-text .typed-text').text();
-  //       var typed = new Typed('.hero .hero-text h2', {
-  //           strings: typed_strings.split(', '),
-  //           typeSpeed: 100,
-  //           backSpeed: 20,
-  //           smartBackspace: false,
-  //           loop: true
-  //       });
-  //   }
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
