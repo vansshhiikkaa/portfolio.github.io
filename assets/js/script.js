@@ -7,7 +7,6 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 // Typed.js Initiation
-  // Typed Initiate
   //   if ($('.hero .hero-text h2').length == 1) {
   //       var typed_strings = $('.hero .hero-text .typed-text').text();
   //       var typed = new Typed('.hero .hero-text h2', {
@@ -18,7 +17,6 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
   //           loop: true
   //       });
   //   }
-  // }
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
