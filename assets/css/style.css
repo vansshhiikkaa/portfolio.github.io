@@ -460,7 +460,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--navbar-top);
+  background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 12px 12px;
@@ -1903,6 +1903,12 @@ body.light-theme {
     hsla(0, 0%, 80%, 0) 50%
   );
 
+  --text-gradient-yellow: linear-gradient(
+    to right, 
+    hsl(180, 100%, 30%), 
+    hsl(180, 100%, 30%)
+);
+
   /* Update solid colors */
   --jet: hsl(0, 0%, 78%);
   --onyx: hsl(240, 1%, 90%);
@@ -1913,10 +1919,9 @@ body.light-theme {
   --white-2: hsl(0, 0%, 2%);
   --light-gray: hsl(0, 0%, 16%);
   --light-gray-70: hsla(0, 0%, 16%, 0.7);
-  --navbar-top: hsla(0, 0%, 16%);
   /* Adjust other variables as needed */
-  --orange-yellow-crayola: hsl(180, 100%, 25%);
-  --vegas-gold: hsl(180, 100%, 25%);
+  --orange-yellow-crayola: hsl(180, 100%, 30%);
+  --vegas-gold: hsl(180, 100%, 30%);
   --bittersweet-shimmer: hsl(0, 100%, 45%);
 
 }
