@@ -2021,3 +2021,43 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+body.light-theme {
+
+  /* Update background gradients */
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right, 
+    hsl(240, 1%, 90%) 3%, 
+    hsl(0, 0%, 97%) 97%
+  );
+
+  --bg-gradient-jet: linear-gradient(
+    to bottom right, 
+    hsla(240, 1%, 90%, 0.251) 0%, 
+    hsla(240, 2%, 95%, 0) 100%
+  ), hsl(240, 2%, 95%);
+
+  --border-gradient-onyx: linear-gradient(
+    to bottom right, 
+    hsl(0, 0%, 80%) 0%, 
+    hsla(0, 0%, 80%, 0) 50%
+  );
+
+  /* Update solid colors */
+  --jet: hsl(0, 0%, 78%);
+  --onyx: hsl(240, 1%, 90%);
+  --eerie-black-1: hsl(240, 2%, 95%);
+  --eerie-black-2: hsl(240, 2%, 97%);
+  --smoky-black: hsl(0, 0%, 99%);
+  --white-1: hsl(0, 0%, 10%);
+  --white-2: hsl(0, 0%, 2%);
+  --light-gray: hsl(0, 0%, 16%);
+  --light-gray-70: hsla(0, 0%, 16%, 0.7);
+
+  /* Adjust other variables as needed */
+  --orange-yellow-crayola: hsl(180, 100%, 35%);
+  --vegas-gold: hsl(180, 100%, 35%);
+  --bittersweet-shimmer: hsl(0, 100%, 45%);
+
+}
+
