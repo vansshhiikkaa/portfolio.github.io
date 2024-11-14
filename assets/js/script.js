@@ -1,18 +1,21 @@
 'use strict';
 
 
-// Typed.js Initiation
-const heroTextH2 = document.querySelector('.hero .hero-text h2');
-if (heroTextH2) {
-  const typedStrings = document.querySelector('.hero .hero-text .typed-text').textContent;
-  new Typed('.hero .hero-text h2', {
-    strings: typedStrings.split(', '),
-    typeSpeed: 100,
-    backSpeed: 20,
-    smartBackspace: false,
-    loop: true
-  });
-}
+// Theme toggler variables
+const themeToggler = document.querySelector("[data-theme-toggler]");
+const body = document.body;
+
+themeToggler.addEventListener("click", function () {
+  body.classList.toggle("light-theme");
+
+  // Change the icon based on the theme
+  if (body.classList.contains("light-theme")) {
+    themeToggler.innerHTML = '<ion-icon name="sunny-outline"></ion-icon>';
+  } else {
+    themeToggler.innerHTML = '<ion-icon name="moon-outline"></ion-icon>';
+  }
+});
+
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
