@@ -66,6 +66,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 100%, 51%);
+  --navbar-top: hsla(240, 1%, 17%, 0.75);
 
   /**
    * typography
@@ -459,7 +460,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--light-gray-70);
+  background: var(--navbar-top);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 12px 12px;
@@ -1912,7 +1913,7 @@ body.light-theme {
   --white-2: hsl(0, 0%, 2%);
   --light-gray: hsl(0, 0%, 16%);
   --light-gray-70: hsla(0, 0%, 16%, 0.7);
-
+  --navbar-top: hsla(0, 0%, 16%);
   /* Adjust other variables as needed */
   --orange-yellow-crayola: hsl(180, 100%, 25%);
   --vegas-gold: hsl(180, 100%, 25%);
