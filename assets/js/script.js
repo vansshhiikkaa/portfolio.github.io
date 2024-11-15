@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     backSpeed: 20,
     smartBackspace: false,
     loop: true,
+    showCursor: false,
   });
 });
 
