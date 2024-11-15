@@ -1410,8 +1410,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 60px;
+    margin-bottom: 100px;
   }
 
 
@@ -1422,7 +1422,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     max-height: 180px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
 
   .sidebar.active { max-height: 584px; }
