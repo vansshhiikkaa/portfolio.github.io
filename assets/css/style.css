@@ -448,21 +448,34 @@ main {
 .social-item .social-link:hover { color: var(--orange-yellow-crayola); }
 
 /* Add this to your CSS file */
+/* Remove text-align: center from .hero */
 .hero {
-  text-align: center;
   margin-top: 50px;
+}
+
+/* Ensure .hero-text is aligned to the left */
+.hero-text {
+  text-align: left;
 }
 
 .hero-text h1 {
   font-size: 2.5rem;
   color: var(--white-2);
+  margin: 0; /* Remove any default margins */
 }
 
 .hero-text h2 {
   font-size: 1.5rem;
   color: var(--orange-yellow-crayola);
-  min-height: 50px; /* To prevent layout shift */
+  margin: 0; /* Remove default margins */
+  display: inline-block; /* Ensure it doesn't take full width */
 }
+
+/* Ensure the typed-text span is inline */
+.hero-text h2 .typed-text {
+  display: inline;
+}
+
 
 
 
