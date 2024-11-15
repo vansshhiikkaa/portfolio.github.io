@@ -1383,7 +1383,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article {
     width: 520px;
     margin-inline: 0 auto;
-    padding: 30px;
+    padding: 0px;
   }
 
   .article-title {
@@ -1410,8 +1410,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
 
