@@ -18,18 +18,13 @@ themeToggler.addEventListener("click", function () {
 
 // Typed.js initialization
 document.addEventListener('DOMContentLoaded', function () {
-  const typedTextElement = document.querySelector('.hero .hero-text .typed-text');
-  const h2Element = document.querySelector('.hero .hero-text h2');
-  if (typedTextElement && h2Element) {
-    const typedStrings = typedTextElement.textContent.split(', ');
-    const typed = new Typed(h2Element, {
-      strings: typedStrings,
-      typeSpeed: 100,
-      backSpeed: 20,
-      smartBackspace: false,
-      loop: true,
-    });
-  }
+  const typed = new Typed('.typed-text', {
+    strings: ['Statistician', 'Data Scientist', 'Web Enthusiast', 'Student'],
+    typeSpeed: 100,
+    backSpeed: 20,
+    smartBackspace: false,
+    loop: true,
+  });
 });
 
 // element toggle function
