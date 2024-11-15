@@ -468,7 +468,7 @@ main {
   font-size: 1.5rem;
   color: var(--orange-yellow-crayola);
   margin: 0; /* Remove default margins */
-  display: inline-block; /* Ensure it doesn't take full width */
+  display: inline; /* Ensure it doesn't take full width */
 }
 
 /* Ensure the typed-text span is inline */
